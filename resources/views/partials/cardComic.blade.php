@@ -1,8 +1,6 @@
-<div class="card_c">
-    <div class="img_container">
-        
+@foreach ($arrComics as $item)
+    <div class="comic">
+        <img class="img-fluid" src="{{ Vite::asset($item['thumb']) }}" alt="">
+        <p>{{ $item['series'] }}</p>
     </div>
-    <div class="text_container">
-        <p></p>
-    </div>
-</div>
+@endforeach
