@@ -7,6 +7,6 @@
         @vite('resources/js/app.js')
     </head>
     <body>
-        <h1 class="text-center">Ciao da vite</h1>
+        
     </body>
 </html>
