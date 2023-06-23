@@ -50,7 +50,7 @@ Route::get('/', function () {
                 ],
                 [
                     'title' => 'NEWS',
-                    'link' => '#',
+                    'link' => '/news',
                 ],
                 [
                     'title' => 'SHOP',
@@ -271,4 +271,8 @@ Route::get('/', function () {
     ],
 ],
     ]);
+});
+
+Route::get('/news', function () {
+    return view('news');
 });
