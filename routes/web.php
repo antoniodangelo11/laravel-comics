@@ -18,35 +18,35 @@ Route::get('/', function () {
         'arrMenu' =>  [
                 [
                     'title' => 'CHARACTERS',
-                    'link' => '#',
+                    'link' => '/characters',
                 ],
                 [
                     'title' => 'COMICS',
-                    'link' => '#',
+                    'link' => '/comics',
                 ],
                 [
                     'title' => 'MOVIES',
-                    'link' => '#',
+                    'link' => '/movies',
                 ],
                 [
                     'title' => 'TV',
-                    'link' => '#',
+                    'link' => '/tv',
                 ],
                 [
                     'title' => 'GAMES',
-                    'link' => '#',
+                    'link' => '/games',
                 ],
                 [
                     'title' => 'COLLECTIBLES',
-                    'link' => '#',
+                    'link' => '/collectibles',
                 ],
                 [
                     'title' => 'VIDEOS',
-                    'link' => '#',
+                    'link' => '/videos',
                 ],
                 [
                     'title' => 'FANS',
-                    'link' => '#',
+                    'link' => '/fans',
                 ],
                 [
                     'title' => 'NEWS',
@@ -54,7 +54,7 @@ Route::get('/', function () {
                 ],
                 [
                     'title' => 'SHOP',
-                    'link' => '#',
+                    'link' => '/shop',
                 ]
             ],
         'arrComics' => [
@@ -273,6 +273,44 @@ Route::get('/', function () {
     ]);
 });
 
+Route::get('/characters', function () {
+    return view('characters');
+});
+
+Route::get('/comics', function () {
+    return view('comics');
+});
+
+Route::get('/movies', function () {
+    return view('movies');
+});
+
+Route::get('/tv', function () {
+    return view('tv');
+});
+
+Route::get('/games', function () {
+    return view('games');
+});
+
+Route::get('/collectibles', function () {
+    return view('collectibles');
+});
+
+Route::get('/videos', function () {
+    return view('videos');
+});
+
+Route::get('/fans', function () {
+    return view('fans');
+});
+
 Route::get('/news', function () {
     return view('news');
 });
+
+Route::get('/shop', function () {
+    return view('shop');
+});
+
+
