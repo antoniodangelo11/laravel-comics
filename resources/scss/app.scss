@@ -201,6 +201,7 @@ footer {
     }
 }
 
+
 .nav_menu {
     li {
         font-size: .7rem;
@@ -210,13 +211,14 @@ footer {
 
 li::after {
     content: "";
-    display: block;
-    width: 50px;
-    height: 5px;
-    background-color: #0282f9;
-    position: absolute;
-    top: 71px;
-    left: 49px;
+        display: block;
+        width: 50px;
+        height: 5px;
+        background-color: #0282f9;
+        position: absolute;
+        top: 71px;
+        left: 49px;
+    }
 }
-}
+
 
