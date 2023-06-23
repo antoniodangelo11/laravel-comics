@@ -2,23 +2,23 @@
         <section class="footer_up">
             <div class="options">
                 <div>
-                    <img src="../assets/img/buy-comics-digital-comics.png" alt="">
+                    <img src="{{ Vite::asset('public/img/buy-comics-digital-comics.png') }}" alt="">
                     <p>DIGITAL COMICS</p>
                 </div>
                 <div>
-                    <img src="../assets/img/buy-comics-merchandise.png" alt="">
+                    <img src="{{ Vite::asset('public/img/buy-comics-merchandise.png') }}" alt="">
                     <p>DC MERCHANDISE</p>
                 </div>
                 <div>
-                    <img src="../assets/img/buy-comics-subscriptions.png" alt="">
+                    <img src="{{ Vite::asset('public/img/buy-comics-subscriptions.png') }}" alt="">
                     <p>SUBSCRIPTION</p>
                 </div>
                 <div>
-                    <img src="../assets/img/buy-comics-shop-locator.png" alt="">
+                    <img src="{{ Vite::asset('public/img/buy-comics-shop-locator.png') }}" alt="">
                     <p>COMIC SHOP LOCATOR</p>
                 </div>
                 <div>
-                    <img src="../assets/img/buy-dc-power-visa.svg" alt="">
+                    <img src="{{ Vite::asset('public/img/buy-dc-power-visa.svg') }}" alt="">
                     <p>DC POWER VISA</p>
                 </div>
             </div>
@@ -124,7 +124,7 @@
                     </div>
                 </div>
 
-                <img src="../assets/img/dc-logo-bg.png" alt="">
+                <img src="{{ Vite::asset('public/img/dc-logo-bg.png') }}" alt="">
             </div>
         </section>
         <section class="footer_bot">
@@ -135,11 +135,11 @@
 
                 <div>
                     <h3>FOLLOW US</h3>
-                    <img src="../assets/img/footer-facebook.png" alt="">
-                    <img src="../assets/img/footer-twitter.png" alt="">
-                    <img src="../assets/img/footer-youtube.png" alt="">
-                    <img src="../assets/img/footer-pinterest.png" alt="">
-                    <img src="../assets/img/footer-periscope.png" alt="">
+                    <img src="{{ Vite::asset('public/img/footer-facebook.png') }}" alt="">
+                    <img src="{{ Vite::asset('public/img/footer-twitter.png') }}" alt="">
+                    <img src="{{ Vite::asset('public/img/footer-youtube.png') }}" alt="">
+                    <img src="{{ Vite::asset('public/img/footer-pinterest.png') }}" alt="">
+                    <img src="{{ Vite::asset('public/img/footer-periscope.png') }}" alt="">
                 </div>
             </div>
         </section>

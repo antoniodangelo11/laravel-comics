@@ -2,15 +2,18 @@
 
 header {
     background-color: rgb(255, 255, 255);
-}
 
-.head_container {
+    .head_container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: auto;
     max-width: 1200px;
     height: 120px;
+
+    .logo {
+    height: 80px;
+}
 }
 
 ul {
@@ -21,13 +24,10 @@ ul {
     gap: 1rem;
     color: rgb(0, 0, 0);
 }
-
-.logo {
-    height: 80px;
 }
 
 .jumbotron {
-    background-image: url(../assets/img/jumbotron.jpg);
+    background-image: url(../../public/img/jumbotron.jpg);
     height: 25rem;
     background-size: cover;
     background-repeat: no-repeat;
@@ -53,9 +53,8 @@ ul {
 main {
     background-color: rgb(48, 48, 48);
     padding: 3rem;
-}
 
-.main_container {
+    .container {
     max-width: 1200px;
     display: flex;
     flex-wrap: wrap;
@@ -71,49 +70,10 @@ main {
     margin: 2rem;
     border: 0;
 }
-
-li {
-    font-size: .7rem;
-    font-weight: bold;
-    padding-inline: .5rem;
 }
 
-li::after {
-    content: "";
-    display: block;
-    width: 50px;
-    height: 5px;
-    background-color: #0282f9;
-    position: absolute;
-    top: 71px;
-    left: 49px;
-}
-
-.card_x {
-    width: calc((100% / 6) - 1rem);
-    margin: 2.5rem .5rem;
-    border: none;
-
-    .img_container {
-        width: 100%;
-        height: 100%;
-        aspect-ratio: 1 / 1;
-
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-    }
-}
-
-.text_container {
-    color: rgb(255, 255, 255);
-    font-size: .9em;
-    text-align: center;
-}
-
-.footer_up {
+footer {
+    .footer_up {
     background-color: rgb(2, 130, 249);
 }
 
@@ -142,11 +102,10 @@ li::after {
         }
     }
 
-
 }
 
 .footer_mid {
-    background-image: url(../assets/img/footer-bg.jpg);
+    background-image: url(../../public/img/footer-bg.jpg);
     background-size: cover;
     overflow: hidden;
 }
@@ -190,7 +149,6 @@ li::after {
     background-color: rgb(48, 48, 48);
 }
 
-
 .socials {
     max-width: 1200px;
     margin: auto;
@@ -220,5 +178,50 @@ li::after {
         }
     }
 }
+}
 
+.card_comic {
+    .card_c {
+        width: calc((100% / 6) - 1rem);
+        margin: 2.5rem .5rem;
+        border: none;
+
+    .img_container {
+        width: 100%;
+        height: 100%;
+        aspect-ratio: 1 / 1;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+.text_container {
+    color: rgb(255, 255, 255);
+    font-size: .9em;
+    text-align: center;
+}
+}
+
+.nav_menu {
+    li {
+        font-size: .7rem;
+        font-weight: bold;
+        padding-inline: .5rem;
+    }
+
+li::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 5px;
+    background-color: #0282f9;
+    position: absolute;
+    top: 71px;
+    left: 49px;
+}
+}
 

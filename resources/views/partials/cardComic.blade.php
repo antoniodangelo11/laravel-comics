@@ -1,6 +1,6 @@
-<div class="card_x">
+<div class="card_c">
     <div class="img_container">
-        <img :src="urlImg" :alt="title">
+        
     </div>
     <div class="text_container">
         <p></p>
